@@ -495,16 +495,31 @@ main {
   #ABOUT
 \*-----------------------------------*/
 
-.about .article-title { margin-bottom: 15px; }
+.profil-header {
+  display: flex;
+  align-items: center;
+}
 
-.about-text {
+.profil-icon {
+  width: 90px;
+  height: 90px;
+  margin-right: 10px;
+  border-radius: 50%;
+  transform: translateY(-15px); /* geser ke atas */
+}
+
+
+
+.profil .article-title { margin-bottom: 15px; }
+
+.profil-text {
   color: var(--light-gray);
   font-size: var(--fs-6);
   font-weight: var(--fw-300);
   line-height: 1.6;
 }
 
-.about-text p { margin-bottom: 15px; }
+.profil-text p { margin-bottom: 15px; }
 
 
 
@@ -1385,9 +1400,9 @@ textarea.form-input::-webkit-resizer { display: none; }
    * #ABOUT
    */
 
-  .about .article-title { margin-bottom: 20px; }
+  .profil .article-title { margin-bottom: 20px; }
 
-  .about-text { margin-bottom: 40px; }
+  .profil-text { margin-bottom: 40px; }
 
   /* service */
 
